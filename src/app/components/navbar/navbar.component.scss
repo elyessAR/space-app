@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+.navbar {
+  background-color: #8f1347;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: "Space Mono", monospace;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.navbar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links li {
+  margin-right: 40px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #87ceeb;
+}
+
+.active {
+  color: #87ceeb;
+}

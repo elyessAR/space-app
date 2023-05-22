@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <ul class="navbar-links">
+    <li>
+      <a class="navbar-brand" routerLink="/">
+        <span class="navbar-logo"><i class="fas fa-rocket"></i></span>
+        <span class="navbar-title">Space Explorer</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/picture-of-the-day" routerLinkActive="active"
+        >Picture of the day</a
+      >
+    </li>
+    <li>
+      <a routerLink="/upcoming-eclipses" routerLinkActive="active"
+        >Near earth objects</a
+      >
+    </li>
+    <li><a routerLink="/asteroids" routerLinkActive="active">Eclipses</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>

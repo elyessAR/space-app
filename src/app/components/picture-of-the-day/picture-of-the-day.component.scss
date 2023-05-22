@@ -1,0 +1,28 @@
+.picture-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.picture-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.picture-date {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.picture-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,10 @@
+<div class="picture-container" *ngIf="picOfTheDay">
+  <h2 class="picture-title">{{ picOfTheDay.title }}</h2>
+  <p class="picture-date">{{ picOfTheDay.date }}</p>
+  <img
+    class="picture-image"
+    src="{{ picOfTheDay.url }}"
+    alt="{{ picOfTheDay.title }}"
+  />
+  <p>{{ picOfTheDay.explanation }}</p>
+</div>
